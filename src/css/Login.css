@@ -1,0 +1,47 @@
+
+body {
+  background: white;
+}
+
+
+.login {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  height: 32rem;
+}
+
+
+.login_fields {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login_fields h1{
+  text-align: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.fields input{
+    width: 25rem;
+    height: 3rem;
+}
+
+.fields label{
+  margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.amazonlogo{
+  height: 5rem;
+}

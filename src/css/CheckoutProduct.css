@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%;
+}
+.check-img{
+    height: 18rem;
+    width: 15rem;
+    object-fit: contain;
+    padding-top: 0.7rem;}
+.title{
+    width: 15rem;
+    margin-bottom: 0.5rem;
+}
+
+.checkout_rating{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.checkout_details{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.checkout_productt{
+    display: flex;
+    background: white;
+    margin-bottom: 1rem;
+}
+
+small{
+    font-weight: 700;
+}

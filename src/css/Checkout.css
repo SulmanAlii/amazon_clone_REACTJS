@@ -1,0 +1,11 @@
+.product_item{
+    width: 100%;
+}
+.subtotal_div{
+    display: flex;
+    background: white;
+    position: relative;
+}
+.subtotal_div h1{
+    margin: 1rem;
+}

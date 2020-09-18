@@ -1,0 +1,67 @@
+.product{
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+    background: white;
+    z-index: 1;
+    position: relative;
+    
+}
+.rating{
+    display: flex;
+    margin: auto;
+    margin-bottom: 0.7rem;
+    margin-top: -0.5rem;
+
+}
+
+.img{
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+.btnAdd{
+    width: 5%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 50%;
+   
+}
+
+.product p{
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.product h3{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem;
+}
+
+
+.btnAdd:hover {
+  background-color: #ffe9c1;
+}
+
+
+@media(max-width: 768px){
+   .product{
+       width: auto;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .product h3{
+      font-size: 0.3rem;
+     }
+     
+ }
+ 

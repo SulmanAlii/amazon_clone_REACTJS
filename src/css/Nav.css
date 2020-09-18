@@ -1,0 +1,125 @@
+html {
+  font-size: 62.5%;
+}
+
+/* :root{
+    -var-family: 
+} */
+
+.MainNav {
+  background: #232f3e;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav_img {
+  width: 10rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.nav_inputdiv {
+  display: flex;
+  flex: 1;
+}
+
+.nav_input {
+  margin-left: 1rem;
+  width: 100%;
+  height: 3rem;
+  border: none;
+  outline: none;
+}
+
+.searchlogo {
+  height: 3rem !important;
+  background-color: #cd9042;
+}
+
+.nav_rightside {
+  display: flex;
+  color: white;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.element_childone {
+  font-size: 1.1rem;
+}
+.element_childtwo {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.elementcart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  margin-left: 0.1rem;
+}
+.cartimg {
+  width: 1.6rem;
+}
+
+.element_childcart {
+  position: relative;
+  bottom: 0.2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.5rem;
+  color: white;
+  text-emphasis: none;
+}
+
+@media (max-width: 430px) {
+  .nav_inputdiv {
+    flex: 2;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav_img {
+    width: 3rem;
+    margin-bottom: 4.8rem;
+    margin-left: 0.2rem;
+  }
+  .element {
+    margin-right: 1.2rem;
+    margin-left: 2rem;
+  }
+  .MainNav {
+    position: relative;
+    height: 8rem;
+  }
+  .nav_inputdiv {
+    margin-bottom: 4.1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .nav_rightside {
+    position: absolute;
+    bottom: 0px;
+    top: 4.5rem;
+    right: 0;
+    text-align: center;
+  }
+  .element_childone{
+    font-size: 1rem;
+  }
+  .element_childtwo{
+    font-size: 1rem;
+  }
+}
